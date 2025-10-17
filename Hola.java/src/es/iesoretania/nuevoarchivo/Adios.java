@@ -4,6 +4,10 @@ public class Adios {
 	public static void main(String[]Args) {
 		
 		System.out.println("Adiós");
+		
+		System.out.println("Adiós");
+		
+		System.out.println("Adiós");
 	}
 
 }
