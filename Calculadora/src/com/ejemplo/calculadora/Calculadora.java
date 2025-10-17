@@ -16,5 +16,8 @@ public class Calculadora {
 	public static double Sumar(double n1,double n2) {
 		return n1+n2;
 	}
+	public static double Restar(double n1,double n2) {
+		return n1-n2
+	}
 
 }
