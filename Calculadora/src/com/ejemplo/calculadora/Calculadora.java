@@ -22,5 +22,12 @@ public class Calculadora {
 	public static double Multiplicar(double n1,double n2) {
 		return n1*n2;
 	}
+	public static double Dividir (double n1,double n2) {
+		if(n2==0) {
+			throw new IllegalArgumentException("No se puede dividir entre cero");
+			
+		}
+		return n1/n2;
+	}
 
 }
